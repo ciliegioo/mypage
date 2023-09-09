@@ -58,6 +58,8 @@ elif menu == 'About My School':
     with bar2:
         st.write('교장 : 정희석')
         st.write('교훈 : 인의예지')
+        st.write('교목 : 주목')
+        st.write('교화 : 목련')
 
 # 동아리소개
 elif menu == 'About My Club':
