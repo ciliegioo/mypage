@@ -29,6 +29,7 @@ if menu == 'About Me':
         st.header('조은경(Cho Eunkyeong)')
         st.write('_🎂:grey[2006.04.04]_')
         st.write('_📧:grey[slowhale19@gmail.com]_')
+        st.write('게임개발자가 꿈인 강동고 조은경입니다😊')
 
     with tab2:
         bar1, bar2, bar3 = st.columns([2, 2, 2])
@@ -69,7 +70,7 @@ elif menu == 'About My Club':
 
     with bar2:
         st.subheader('NULL')
-        st.write(':blue[코딩 동아리]')
+        st.write(':blue[코딩 동아리 2021~]')
         st.write('부장 : 조은경')
 
         df = pd.DataFrame({
