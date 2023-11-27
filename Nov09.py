@@ -29,7 +29,7 @@ def calculate_distribution(text):
 
 # 메시지의 길이와 시뮬레이션 횟수 설정
 message_length = 100
-num_simulations = 1000
+num_simulations = 100
 
 # 몬테카를로 시뮬레이션 함수
 def simulate_one_time_pad(message_length, num_simulations):
